@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conversor.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <header>
+       <h1>Conversor de Moedas</h1>
+    </header>
+    <section id="sec">
+        <div id="navegacao">
+            <nav id="convDol">
+                <h2>Dólar</h2>
+                <div class="divt">
+                    <label for="usd">Insira o valor em Real:</label>
+                    <input type="text" name="Moeda" id="usd" placeholder="R$1000,00">
+                </div>
+                <button id="btn1">$$</button>
+                <div id="convertido1" class="convertidos"></div>
+            </nav>
+            <div class="btnsec">
+                <div id="secs1">
+                    <button id="sec1">-</button>
+                    <button id="sec1-2">-</button>
+                </div>
+            </div>
+            
+            <nav id="convEur">
+                <h2>Euro</h2>
+                <div class="divt">
+                    <label for="eur">Insira o valor em Real:</label>
+                    <input type="text" name="Moeda" id="eur" placeholder="R$1000,00">
+                </div>
+                <button id="btn2">$$</button>
+                <div id="convertido2" class="convertidos"></div>
+            </nav>
+            <div class="btnsec">
+                <div id="secs2">
+                    <button id="sec2">-</button>
+                    <button id="sec2-2">-</button>
+                </div>
+            </div>
+            <nav id="convBit">
+                <h2>Bitcoin</h2>
+                <div class="divt">
+                    <label for="bit">Insira o valor em Real:</label>
+                    <input type="text" name="Moeda" id="bit" placeholder="R$1000,00">
+                </div>
+                <button id="btn3">$$</button>
+                <div id="convertido3" class="convertidos"></div>
+            </nav>
+        </div>
+    </section>
+    <footer class="footer">
+        <h3>Leonardo Tomaz Bento</h3>
+        <ul class="redes">
+            <li><a href="https://github.com/tmazleo">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/leonardotomazb/">LinkedIn</a></li>
+        </ul>
+    </footer>
+    <script src="conversor.js"></script>
+    <script src="mudar.js"></script>
+</body>
+</html>
